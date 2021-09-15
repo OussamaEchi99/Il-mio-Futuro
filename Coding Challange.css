@@ -1,0 +1,80 @@
+/* Titolo+logo */
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  position: relative;
+  width: 1000px;
+  top: -41px;
+  padding: 60px;
+  margin: auto;
+  font-family: 'Urbanist', sans-serif;
+  right: 100px;
+  line-height: 25px;
+}
+
+/* background testo */
+div{
+  padding: 90px;
+  background-color:rgba(0,0,0,0.5);
+  border-radius: 2%;
+  width: 100%;
+  height: 635px;
+}
+
+header, nav{
+  text-align: center;
+}
+
+img{
+  width: 210px;
+  margin-bottom: 5px;
+  position: relative;
+  top: 20px;
+}
+
+h1{
+  color: #00ff00;
+  margin-bottom: 5px;
+}
+
+/* Menu navigazione */
+nav{
+  background: #00ff00;
+  padding: 12px 50px 12px 50px;
+}
+
+/* Sezione+Testo */
+h2{
+  display: inline-block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+span{
+  color: white;
+  display: block;
+}
+
+.durata-batteria1{
+  line-height: 30px;
+  background-color: #F99245;
+  color: #F99245;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.durata-batteria2{
+  line-height: 30px;
+  background-color: #32CD32;
+  color: #32CD32;
+  width: 600px;
+  border-radius: 5px;
+}
+
+.durata-batteria3{
+    line-height: 30px;
+    background-color: #e53935;
+    color: #e53935;
+    width: 120px;
+    border-radius: 5px;
+}
